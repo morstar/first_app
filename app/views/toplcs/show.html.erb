@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @toplc.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @toplc.description %>
+</p>
+
+<%= link_to 'Edit', edit_toplc_path(@toplc) %> |
+<%= link_to 'Back', toplcs_path %>

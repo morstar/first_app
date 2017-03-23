@@ -1,0 +1,2 @@
+class Toplc < ApplicationRecord
+end
